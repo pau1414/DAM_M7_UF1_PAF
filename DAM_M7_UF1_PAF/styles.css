@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.tauler {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #e6e9f0, #ffffff);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #4a90e2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tasca {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f7f8fc;
+    border-left: 5px solid #4a90e2;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tasca:hover {
+    background-color: #e1ecf4;
+    transform: translateX(5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.FETES .tasca {
+    background-color: #d0f7e9;
+    border-left: 5px solid #34c759;
+}
+
+.PENDENTS .tasca {
+    background-color: #fff7e6;
+    border-left: 5px solid #f5a623;
+}
+
+.tasca:active {
+    transform: translateY(2px);
+    background-color: #d4d7dc;
+}
